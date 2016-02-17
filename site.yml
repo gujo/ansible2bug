@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  become: no
+
+  tasks:
+    - name: copy template
+      template:
+        src: mytemplate.j2
+        dest: /tmp/mytemplate
+

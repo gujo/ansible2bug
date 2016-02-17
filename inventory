@@ -1,0 +1,5 @@
+[mygroup]
+localhost
+
+[mygroup:vars]
+myvalue="from inventory"
